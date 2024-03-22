@@ -1,0 +1,78 @@
+/* Первое задание */
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 40px;
+    text-align: center;
+    /* не знаю как отцентровать по центру цифры*/
+}
+
+.block-1 {
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+}
+
+.block-2 {
+    width: 300px;
+    height: 130px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.box-1 {
+    grid-area: b1;
+    background-color: rgb(241, 85, 85);
+}
+
+.box-2 {
+    grid-area: b2;
+    background-color: rgb(229, 250, 68);
+}
+
+.box-3 {
+    grid-area: b3;
+    background-color: rgb(241, 85, 85);
+}
+
+.box-4 {
+    grid-area: b4;
+    background-color: rgb(28, 165, 184);
+}
+
+.box-5 {
+    grid-area: b5;
+    background-color: rgb(28, 165, 184);
+}
+
+/* Второе задание */
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    /* знаю что костыль, но у меня лапки */
+    /* поэтому не могу сделать цветовую подложку для контейнеров синем цветом*/
+    grid-template-rows: repeat(3, 150px);
+    grid-template-areas:
+        "b1 b1 b1 b2"
+        "b3 b3 b4 b4"
+        "b3 b3 b5 b5";
+    justify-items: stretch;
+    align-items: stretch;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-size: 40px;
+}
+
+/* Третье задание */
+.list {
+    font-size: 24px;
+}
+
+li {
+    max-width: 68%
+}
