@@ -1,0 +1,126 @@
+{
+  "cart": [
+    {
+      "myid": "1",
+      "id": "1",
+      "name": "Comeback kid - Turn it around",
+      "description": "Внутри жидкость, похожая на кровь. Тираж всего 60 экземпляров.",
+      "price": "24999",
+      "image": "images/blood.png"
+    },
+    {
+      "myid": "2",
+      "id": "2",
+      "name": "Of Mice & Men – Tether",
+      "description": "Виниловая пластинка Of Mice & Men – Tether. Подписана участниками группы!",
+      "price": "9999",
+      "image": "images/tether.png"
+    },
+    {
+      "myid": "3",
+      "id": "3",
+      "name": "Akira - OST",
+      "description": "Внутри две пластинки цвета Red and Black Marbled. Обложка типа гэйтфолд.",
+      "price": "7990",
+      "image": "images/akira.png"
+    },
+    {
+      "myid": "4",
+      "id": "4",
+      "name": "Fibre – Rendezvous ",
+      "description": "Цвет - вручную изготовленный Nebula. Обложка типа гэйтфолд.",
+      "price": "9999",
+      "image": "images/rende.png"
+    },
+    {
+      "myid": "5",
+      "id": "5",
+      "name": "Legend Of Zelda Ocarina Of Time 8bit",
+      "description": "Тираж всего 250 экземпляров! А также суперский цвет.",
+      "price": "2999",
+      "image": "images/timeline.png"
+    },
+    {
+      "myid": "6",
+      "id": "6",
+      "name": "Integrity Systems Overload",
+      "description": " Внешний конверт имеет ламинированные элементы.",
+      "price": "5999",
+      "image": "images/systems.png"
+    },
+    {
+      "myid": "7",
+      "id": "7",
+      "name": "J. Balvin & Bad Bunny – Oasis",
+      "description": "Внутри одна пластинка типа picture disc, т.е. с нанесенным изображением.",
+      "price": "7999",
+      "image": "images/osis.png"
+    },
+    {
+      "myid": "8",
+      "id": "8",
+      "name": "Further Seems Forever The Moon Is Down",
+      "description": " Внутри одна пластинка цвета Cloudy White, 80-страничная книга.",
+      "price": "9999",
+      "image": "images/seems.png"
+    },
+    {
+      "myid": "9",
+      "id": "9",
+      "name": "Enter Shikari Live AP 2",
+      "description": "Подписан всеми участниками группы черным маркером.",
+      "price": "9999",
+      "image": "images/enther.png"
+    },
+    {
+      "myid": "10",
+      "id": "10",
+      "name": "He Is Legend – IT Hates You",
+      "description": "Тираж 400 экземпляров. Обложка типа gatefold! А также смешной страус.",
+      "price": "6999",
+      "image": "images/straus.png"
+    },
+    {
+      "myid": "11",
+      "id": "11",
+      "name": "Error37 – Succ My Life",
+      "description": "Пара уголков пластинки немного помялись при доставке из США.",
+      "price": "5499",
+      "image": "images/water.png"
+    },
+    {
+      "myid": "12",
+      "id": "12",
+      "name": "Kodaline Politics of living",
+      "description": "Виниловая пластинка Kodaline - Politics of living с автографами.",
+      "price": "6999",
+      "image": "images/fall.png"
+    },
+    {
+      "myid": "13",
+      "id": "13",
+      "name": "Alice Cooper – Road",
+      "description": "Внутри две 180-граммовые пластинки черного цвета.",
+      "price": "11999",
+      "image": "images/alice.png"
+    },
+    {
+      "myid": "14",
+      "id": "14",
+      "name": "ZAO Parade of Chaos",
+      "description": "Виниловая пластинка ZAO - Parade of Chaos. Эсклюзивная в РФ.",
+      "price": "6999",
+      "image": "images/zaz.png"
+    },
+    {
+      "myid": "15",
+      "id": "15",
+      "name": "Kittie – Oracle",
+      "description": "Виниловая пластинка Kittie – Oracle. Запечатанная.",
+      "price": "7499",
+      "image": "images/kitty.png"
+    }
+  ],
+  "overlay": [],
+  "liked": []
+}

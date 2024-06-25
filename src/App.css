@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  width: 90% !important;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 241px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 13px;
+  font-size: 13px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  height: 50px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin-top: 10px;
+  margin-right: 5px;
+  min-width: 40px;
+  background-color: #eb4d4d !important;
+  border-color: #eb4d4d !important;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #eb924d !important;
+  border-color: #eb924d !important;
+}
+
+.cart {
+  display: grid;
+  gap: 20px;
+  margin: 25px 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cont {
+  margin: 15px 50px 0 50px;
+}
+
+.about {
+  grid-area: about;
+  padding: 30px;
+  display: inline-flex;
+}
+
+.about-photo {
+  height: 355px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.about-text {
+  padding: 0px 5px;
+  text-align: justify;
+}
+
+.metro {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.met {
+  display: inline-flex;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eb4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #eb924d;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
+  grid-template-areas:
+    "about about email";
+}
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 63px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.phone-number,
+.navigation,
+.foot-info {
+  flex: 1;
+}
+
+.phone-number {
+  text-align: left;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.foot-info {
+  text-align: right;
+}
+
+.foot-info p {
+  margin-bottom: 2px;
+}
